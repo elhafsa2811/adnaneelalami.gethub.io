@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Dancing+Script:wght@500&display=swap');
+
+body {
+    font-family:'advent pro',sans-serif;
+    padding: 0;
+    margin: 0;
+} 
+ul { 
+    margin:0;
+    padding:0;
+}
+li{ 
+    list-style-type:none;
+}
+a{
+    text-decoration:none; 
+    color:black;
+}
+/* *****************navbar****************** */
+ nav {
+     overflow:hidden;
+     background-color:#FFE4B5;
+     position:fixed;
+     width:100%;
+     opacity:0.9;
+
+ }
+ header li {
+     float:right;
+     font-size:1.2em;
+ }
+ header li a {
+     text-decoration:none;
+     display:block;
+     text-allign:center ;
+     padding:18px 16px ;
+      }
+      #logo {
+          font-family:'dancing script',cursive ;
+          font-weight:bold ;
+          float:left;
+      }
+      /* ****************image principale*********** */
+      #imageprincipale{
+          padding-top: 60px;
+          background:url(media/pc110475.jpg) no-repeat fixed 50% 50%;
+          background-size:cover;
+          height:799px; }
+          h1{
+              font-family :'dancing-script',cursive;
+              text-align:center;
+              color :#FFFAFA;
+              font-size: 4em;
+              margin-top:50px;
+              text-shadow:1px 3px 2px black;
+          }
+          #premiertrait {
+              height:1px;
+              width: 90% ;
+              margin : -3px auto ; 
+              background-color :#FFFAFA ; 
+              
+          }
+          h3{
+              text-align:center; 
+              color:aliceblue;
+              font-size:4em;
+          }
